@@ -59,7 +59,7 @@ function JSXExamples(){
             <section>
                 <h2>🔀 Conditional Rendering</h2>
                 <p>
-                    สถานะ: {isLoggedIn ? '✅ ล็อกอินแล้ว' : '❌ ยังไม่ได้ล็อกอิน'}
+                    สถานะ: {isloggedIn ? '✅ ล็อกอินแล้ว' : '❌ ยังไม่ได้ล็อกอิน'}
                 </p>
                 
                 {/* ใช้ && operator */}
@@ -95,7 +95,7 @@ function JSXExamples(){
                     <h3>รายการสินค้า</h3>
                     {[
                         { id: 1, name: 'เสื้อ', price: 1500, inStock: true },
-                        { id: 2, name: 'กางเกงยีนสื', price: 390, inStock: true },
+                        { id: 2, name: 'กางเกงยีนส์', price: 390, inStock: true },
                         { id: 3, name: 'กระเป๋า', price: 1390, inStock: false }
                     ].map(product => (
                         <div key={product.id} className="product-item">
